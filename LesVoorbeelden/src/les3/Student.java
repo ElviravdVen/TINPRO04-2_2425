@@ -14,6 +14,13 @@ public class Student {
         this.docent = docent;
     }
 
+    public Student(String naam, long  studentnummer, Docent docent, Adres adres){
+
+    }
+
+    public Student() {
+    }
+
     public void geefSnoep(Snoeppot pot) {
         System.out.println("Student " + this.naam + " geeft een snoepje aan " + docent.naam + ".");
         docent.omNomNom(pot.getSnoepje());

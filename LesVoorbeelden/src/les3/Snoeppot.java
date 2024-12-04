@@ -9,26 +9,16 @@ import java.util.Arrays;
 
 public class Snoeppot {
     public String[] snoepjes = {
-            "Lolly",
-            "Drop",
-            "Winegum",
-            "Spekkie",
-            "Toffee",
-            "Mars",
-            "Snickers",
-            "Twix",
-            "KitKat",
-            "MilkyWay",
-            "Bounty",
-            "Skittles",
-            "Mentos",
-            "Chocoladereep",
-            "Smarties",
-            "Toblerone",
-            "Bonbon",
-            "Gummybeer",
-            "Pepermunt",
-            "Zure mat"
+            "Yoghurt gum - aardbei",
+            "Yoghurt gum - banaan"
+//            "Yoghurt gum - kers",
+//            "Yoghurt gum - appel",
+//            "Yoghurt gum - perzik",
+//            "Yoghurt gum - framboos",
+//            "Yoghurt gum - blauwe bes",
+//            "Yoghurt gum - mango",
+//            "Yoghurt gum - sinaasappel",
+//            "Yoghurt gum - citroen"
     };
     public int aantalSnoepjes = snoepjes.length;
 

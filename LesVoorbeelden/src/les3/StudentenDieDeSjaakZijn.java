@@ -17,6 +17,7 @@ public class StudentenDieDeSjaakZijn {
 
     public StudentenDieDeSjaakZijn(Student[]studenten){
         this.studenten = new Student[studenten.length];
+        this.studenten = studenten;
     }
 
 
