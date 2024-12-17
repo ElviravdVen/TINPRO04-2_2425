@@ -55,7 +55,7 @@ public class Persoon {
         return drankje;
     }
 
-    public int getPersoonID() {
+    protected int getPersoonID() {
         return persoonID;
     }
 
