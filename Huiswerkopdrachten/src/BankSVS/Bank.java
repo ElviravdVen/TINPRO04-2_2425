@@ -9,6 +9,9 @@ import java.util.Scanner;
 
 public class Bank {
     public static void main(String[] args) {
+
+
+
         /*
          * Deel 1
          */
@@ -141,8 +144,5 @@ public class Bank {
                     System.out.println("Ongeldige input. Kies aub een cijfer 1 t/m 4 en druk op enter.");
             }
         }
-
-
-
     }
 }

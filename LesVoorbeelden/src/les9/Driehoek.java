@@ -6,10 +6,16 @@
 package les9;
 
 public class Driehoek extends Figuur{
-    protected int schuineZijde;
+    protected int basis;
+    protected int hoogte;
+
+    public Driehoek() {
+        this.lengte = basis;
+    }
+
     @Override
     protected double berekenOppervlakte() {
-        return super.berekenOppervlakte() / 2;
+        return super.berekenOppervlakte()/2;
     }
 
     @Override
